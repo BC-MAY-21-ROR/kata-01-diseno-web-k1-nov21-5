@@ -1,0 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Poppins:wght@400;700&display=swap');
+
+@import "variables.scss";
+
+body{
+  background: $pink;
+  p{
+    color: white;
+    font-family: $heading-font;
+    font-weight: $heading-weight-700;
+  }
+}
