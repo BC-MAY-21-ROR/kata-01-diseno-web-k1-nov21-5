@@ -1,0 +1,122 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Poppins:wght@400;700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background: url("../images/bg-hero-mobile.svg");
+  background-repeat: no-repeat;
+  background-color: #ebfbff;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+header .container-title {
+  width: 88%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+header .container-title .header-text, header .container-title .header-title {
+  text-align: center;
+  font-family: "Poppins", sans-serif;
+}
+
+header .container-title .header-title {
+  margin-top: 45px;
+  margin-bottom: 20px;
+  font-weight: 700;
+  font-size: 25px;
+}
+
+header .container-title .header-text {
+  font-size: 16px;
+}
+
+header .btn_get_stard {
+  margin-top: 20px;
+  color: white;
+  background-color: #ff52bf;
+  border-radius: 20px;
+  border: 0;
+  padding: 4%;
+  text-align: center;
+  font-weight: 700;
+  font-family: "Open Sans", sans-serif;
+  font-size: 15px;
+  width: 100%;
+  word-spacing: 0.25em;
+}
+
+header #top_content {
+  margin-top: 5%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: nowrap;
+      flex-wrap: nowrap;
+  width: 100%;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+header #top_content button {
+  background-color: white;
+  border: 0px;
+  border-radius: 15px;
+  width: 27%;
+  margin-right: 3%;
+  padding: 2%;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 700;
+}
+
+header #top_content #logo {
+  margin-left: 3%;
+  height: auto;
+  width: 30%;
+}
+
+header .container-images {
+  margin-top: 40px;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+header .container-images .image-mockups {
+  width: 80%;
+}
+
+header #foot {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  background-color: #ebfbff;
+}
+/*# sourceMappingURL=main.css.map */
