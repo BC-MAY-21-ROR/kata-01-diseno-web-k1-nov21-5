@@ -119,4 +119,55 @@ header #foot {
           justify-content: center;
   background-color: #ebfbff;
 }
+
+body {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+body .container-images {
+  margin-top: 40px;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 17%;
+}
+
+body .container-images .image-mockups {
+  width: 80%;
+}
+
+body .container-title {
+  width: 88%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  text-align: center;
+}
+
+body .container-title .body-title {
+  font-family: "Poppins", sans-serif;
+  color: #00252e;
+  font-weight: 700;
+  font-size: 18px;
+  padding: 5%;
+}
+
+body .container-title .body-text {
+  font-family: "Open Sans", sans-serif;
+  color: #808d99;
+}
 /*# sourceMappingURL=main.css.map */
