@@ -114,6 +114,8 @@ body{
       display: flex;
       flex-direction: column;
       text-align: center;
+      border: 1px solid black;
+      border-radius: 15px;
 
       .body-title{
         font-family: $heading-font;
@@ -133,7 +135,7 @@ body{
 
 
   .images_cont{
-    margin-top: 50%;
+    margin-top: 30px;
   }
   #foot{
     padding: 2%;
@@ -156,13 +158,6 @@ body{
     }
   }
 
-  .icons_redes{
-  
-  }
-  .asdasd{
-
-  }
-
   #icons_container{
   
     display: flex;
@@ -177,9 +172,6 @@ body{
     }
   
   }
-  .lol{
-    
-  }
 
   .icons_info_foot{
     margin-right: 5%;
@@ -189,4 +181,11 @@ body{
     flex-direction: row;
   }
 
+}
+
+section{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
