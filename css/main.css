@@ -50,21 +50,6 @@ header .container-title .header-text {
   font-size: 16px;
 }
 
-header .btn_get_stard {
-  margin-top: 20px;
-  color: white;
-  background-color: #ff52bf;
-  border-radius: 20px;
-  border: 0;
-  padding: 4%;
-  text-align: center;
-  font-weight: 700;
-  font-family: "Open Sans", sans-serif;
-  font-size: 15px;
-  width: 100%;
-  word-spacing: 0.25em;
-}
-
 header #top_content {
   margin-top: 5%;
   display: -webkit-box;
@@ -92,7 +77,7 @@ header #top_content button {
 header #top_content #logo {
   margin-left: 3%;
   height: auto;
-  width: 30%;
+  width: 41%;
 }
 
 header .container-images {
@@ -118,6 +103,34 @@ header #foot {
       -ms-flex-pack: center;
           justify-content: center;
   background-color: #ebfbff;
+}
+
+.btn_get_stard {
+  margin-top: 20px;
+  color: white;
+  background-color: #ff52bf;
+  border-radius: 20px;
+  border: 0;
+  padding: 4%;
+  text-align: center;
+  font-weight: 700;
+  font-family: "Open Sans", sans-serif;
+  font-size: 15px;
+  width: 100%;
+  word-spacing: 0.25em;
+}
+
+#last_container {
+  padding-bottom: 15%;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: white;
+  position: relative;
+}
+
+#last_container button {
+  width: 70%;
 }
 
 body {
@@ -180,14 +193,25 @@ body .images_cont {
 
 body #foot {
   padding: 2%;
+  padding-top: 42%;
   background-color: #00252e;
   color: #ebfbff;
+  margin-top: -21%;
+  width: 100%;
   font-family: "Open Sans", sans-serif;
+  padding-bottom: 10%;
 }
 
 body #foot #location_container {
   margin-bottom: 5%;
   margin-top: 5%;
+  margin-left: 0%;
+}
+
+body #foot .logo_foot {
+  height: auto;
+  width: 50%;
+  margin-left: 4%;
 }
 
 body #foot #text {
@@ -208,6 +232,10 @@ body #foot .opc {
   margin-top: 7%;
 }
 
+body #foot div {
+  margin-left: 5%;
+}
+
 body #icons_container {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -220,13 +248,19 @@ body #icons_container {
       -ms-flex-align: center;
           align-items: center;
   text-align: center;
-  -ms-flex-pack: distribute;
-      justify-content: space-around;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-bottom: 5%;
 }
 
 body #icons_container #span_icon {
   border-color: white;
   border: solid;
+}
+
+body #icons_container img {
+  padding: 5%;
 }
 
 body .icons_info_foot {
