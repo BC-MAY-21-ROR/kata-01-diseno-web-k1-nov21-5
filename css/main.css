@@ -66,18 +66,22 @@ header #top_content {
 header #top_content button {
   background-color: white;
   border: 0px;
-  border-radius: 15px;
-  width: 27%;
+  border-radius: 25px;
+  width: 150px;
   margin-right: 3%;
-  padding: 2%;
+  padding: 10px;
   font-family: "Open Sans", sans-serif;
   font-weight: 700;
 }
 
 header #top_content #logo {
   margin-left: 3%;
-  height: auto;
-  width: 41%;
+  width: 150px;
+  padding: 10px;
+}
+
+header #top_content #logo img {
+  width: 100%;
 }
 
 header .container-images {
@@ -111,7 +115,7 @@ header #foot {
   background-color: #ff52bf;
   border-radius: 20px;
   border: 0;
-  padding: 4%;
+  padding: 10px;
   text-align: center;
   font-weight: 700;
   font-family: "Open Sans", sans-serif;
@@ -131,6 +135,18 @@ header #foot {
 
 #last_container button {
   width: 70%;
+}
+
+.shadow-card {
+  -webkit-box-shadow: 0px 0px 10px #ebebeb;
+          box-shadow: 0px 0px 10px #ebebeb;
+}
+
+.shadow-card__foot {
+  border-radius: 10px;
+  -webkit-box-shadow: 0px -15px 9px -7px rgba(235, 235, 235, 0.66);
+          box-shadow: 0px -15px 9px -7px rgba(235, 235, 235, 0.66);
+  border: 1px solid rgba(235, 235, 235, 0.66);
 }
 
 body {
@@ -160,6 +176,20 @@ body .container-images .image-mockups {
   width: 80%;
 }
 
+body .section__one {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 100%;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
 body .container-title {
   width: 88%;
   display: -webkit-box;
@@ -170,8 +200,6 @@ body .container-title {
       -ms-flex-direction: column;
           flex-direction: column;
   text-align: center;
-  border: 1px solid black;
-  border-radius: 15px;
 }
 
 body .container-title .body-title {
@@ -179,7 +207,6 @@ body .container-title .body-title {
   color: #00252e;
   font-weight: 700;
   font-size: 18px;
-  padding: 5%;
 }
 
 body .container-title .body-text {
@@ -289,5 +316,81 @@ section {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+}
+
+section .card-body {
+  border-radius: 15px;
+  padding: 20px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+@media (min-width: 750px) {
+  section {
+    padding-top: 90px;
+  }
+  .section__one {
+    -webkit-box-orient: horizontal !important;
+    -webkit-box-direction: normal !important;
+        -ms-flex-direction: row !important;
+            flex-direction: row !important;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+  }
+  .container-title {
+    width: 40% !important;
+    -webkit-box-align: start !important;
+        -ms-flex-align: start !important;
+            align-items: start !important;
+  }
+  .container-images {
+    width: 48% !important;
+  }
+  .header-text {
+    text-align: left !important;
+  }
+  .btn_get_stard {
+    width: 40% !important;
+    -ms-flex-item-align: center !important;
+        -ms-grid-row-align: center !important;
+        align-self: center !important;
+  }
+  .card-body {
+    width: 90% !important;
+    -webkit-box-orient: horizontal !important;
+    -webkit-box-direction: reverse !important;
+        -ms-flex-direction: row-reverse !important;
+            flex-direction: row-reverse !important;
+    -webkit-box-align: center !important;
+        -ms-flex-align: center !important;
+            align-items: center !important;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .flex-card1 {
+    width: 35% !important;
+  }
+  .flex-card1 img {
+    width: 100% !important;
+  }
+  .flex-card2 {
+    width: 60% !important;
+    padding: 100px !important;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    text-align: left !important;
+  }
+  .card-body-middle {
+    -webkit-box-orient: horizontal !important;
+    -webkit-box-direction: normal !important;
+        -ms-flex-direction: row !important;
+            flex-direction: row !important;
+  }
 }
 /*# sourceMappingURL=main.css.map */
